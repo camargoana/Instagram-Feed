@@ -1,0 +1,78 @@
+*, *::after , *::before{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-title{
+width: 100%;
+text-align: center;
+font-weight: bold;
+font-size: 36px;
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    background-color: #cecccc;
+    width: 100%;
+
+
+}
+
+.feed-container{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.feed{
+    background-color: #FFFFFF;
+    width: 600px;
+    margin: 20px;
+}
+
+.feed-header{
+    width: 100%;
+    padding:0px;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.feed-title{
+    width: 80%;
+    padding-left: 2%;
+    font-weight: bold;
+    
+}
+
+
+.feed-date{
+    width: 20%;
+    text-align: right;
+    padding-right: 2%;
+    font-weight: bold;
+    color: grey;
+}
+  
+.feed-pic{
+    width: 100%;
+}
+    
+.feed-text {
+
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
